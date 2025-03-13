@@ -1,40 +1,70 @@
 {
   "layouts": {
-    "default": {
+    "default_layout": {
+      "name": "default_layout",
       "layout": [
-        ["ESC", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "EQUAL"],
-        ["TAB", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMI", "SQT"],
-        ["LSHFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "UP", "SLASH"],
-        ["LCTRL", "LEFT_WIN", "LEFT_ALT", "SPACE", "MO(1)", "LT(2,LANG2)", "LT(3,LANG1)", "BACKSPACE", "RET", "LEFT", "DOWN", "RIGHT"],
-        ["ALLOW_END", "ALLOW_PGDN", "ALLOW_HOME", "ALLOW_PGUP", "ALLOW_PGUP", "ALLOW_HOME", "ALLOW_PGDN", "ALLOW_END"]
-      ]
-    },
-    "secondary": {
-      "layout": [
-        ["TILDE", "1", "2", "3", "4", "5", "PGUP", "PRTSC", "KP_SLASH", "KP_7", "KP_8", "KP_9"],
-        ["", "6", "7", "8", "9", "0", "HOME", "END", "KP_ASTERISK", "KP_4", "KP_5", "KP_6"],
-        ["", "", "", "", "", "", "PGDN", "KP_MINUS", "KP_PLUS", "KP_1", "KP_2", "KP_3"],
-        ["", "", "", "", "", "CAPS", "", "DELETE", "", "KP_0", "DOT_COMMA", "KP_ENTER"],
-        ["", "", "", "", "", "", "", ""]
-      ]
-    },
-    "tertiary": {
-      "layout": [
-        ["", "F1", "F2", "F3", "F4", "F5", "", "", "", "", "", ""],
-        ["", "F6", "F7", "F8", "F9", "F10", "", "", "", "", "", ""],
-        ["", "F11", "F12", "F13", "F14", "F15", "", "", "", "", "", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", ""],
-        ["", "", "", "", "", "", "", ""]
-      ]
-    },
-    "system": {
-      "layout": [
-        ["", "", "", "", "", "", "OUT_TOG", "BT_SEL 0", "BT_SEL 1", "BT_SEL 2", "BT_SEL 3", "BT_SEL 4"],
-        ["", "", "", "", "BOOTLOADER", "SYS_RESET", "SYS_RESET", "BOOTLOADER", "STUDIO_UNLOCK", "BT_CLR", "BT_CLR_ALL", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", ""],
-        ["", "", "", "", "", "", "", ""]
+        { "row": 1, "col":  0, "x":  0, "y": 1 },
+        { "row": 1, "col":  1, "x":  1, "y": 1 },
+        { "row": 1, "col":  2, "x":  2, "y": 1 },
+        { "row": 1, "col":  3, "x":  3, "y": 1 },
+        { "row": 1, "col":  4, "x":  4, "y": 1 },
+        { "row": 1, "col":  8, "x":  8, "y": 1 },
+        { "row": 1, "col":  9, "x":  9, "y": 1 },
+        { "row": 1, "col": 10, "x": 10, "y": 1 },
+        { "row": 1, "col": 11, "x": 11, "y": 1 },
+        { "row": 1, "col": 12, "x": 12, "y": 1 },
+
+        { "row": 2, "col":  0, "x":  0, "y": 2 },
+        { "row": 2, "col":  1, "x":  1, "y": 2 },
+        { "row": 2, "col":  2, "x":  2, "y": 2 },
+        { "row": 2, "col":  3, "x":  3, "y": 2 },
+        { "row": 2, "col":  4, "x":  4, "y": 2 },
+        { "row": 2, "col":  5, "x":  5, "y": 2 },
+        { "row": 2, "col":  7, "x":  7, "y": 2 },
+        { "row": 2, "col":  8, "x":  8, "y": 2 },
+        { "row": 2, "col":  9, "x":  9, "y": 2 },
+        { "row": 2, "col": 10, "x": 10, "y": 2 },
+        { "row": 2, "col": 11, "x": 11, "y": 2 },
+        { "row": 2, "col": 12, "x": 12, "y": 2 },
+
+        { "row": 3, "col":  0, "x":  0, "y": 3 },
+        { "row": 3, "col":  1, "x":  1, "y": 3 },
+        { "row": 3, "col":  2, "x":  2, "y": 3 },
+        { "row": 3, "col":  3, "x":  3, "y": 3 },
+        { "row": 3, "col":  4, "x":  4, "y": 3 },
+        { "row": 3, "col":  5, "x":  5, "y": 3 },
+        { "row": 3, "col":  7, "x":  7, "y": 3 },
+        { "row": 3, "col":  8, "x":  8, "y": 3 },
+        { "row": 3, "col":  9, "x":  9, "y": 3 },
+        { "row": 3, "col": 10, "x": 10, "y": 3 },
+        { "row": 3, "col": 11, "x": 11, "y": 3 },
+        { "row": 3, "col": 12, "x": 12, "y": 3 },
+
+        { "row": 4, "col":  0, "x":  0, "y": 4 },
+        { "row": 4, "col":  1, "x":  1, "y": 4 },
+        { "row": 4, "col":  2, "x":  2, "y": 4 },
+        { "row": 4, "col":  3, "x":  3, "y": 4 },
+        { "row": 4, "col":  4, "x":  4, "y": 4 },
+        { "row": 4, "col":  5, "x":  5, "y": 4 },
+        { "row": 4, "col":  7, "x":  7, "y": 4 },
+        { "row": 4, "col":  8, "x":  8, "y": 4 },
+        { "row": 4, "col": 12, "x": 12, "y": 4 }
       ]
     }
-  }
+  },
+  "sensors": [
+    {
+      "ref": "left_encoder",
+      "name": "encoder_left",
+      "identifier": "encoder_left",
+      "compatible": "alps,ec11",
+      "enabled": false
+    },
+    {
+      "ref": "right_encoder",
+      "name": "encoder_right",
+      "identifier": "encoder_right",
+      "enabled": false
+    }
+  ]
 }
