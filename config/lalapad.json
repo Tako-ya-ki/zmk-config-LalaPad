@@ -1,0 +1,47 @@
+{
+  "layouts": {
+    "default_layout": {
+      "name": "default_layout",
+      "keys": [
+        ["ESC", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "EQUAL"],
+        ["TAB", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMI", "SQT"],
+        ["LSHIFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "UP", "SLASH"],
+        ["LCTRL", "LEFT_WIN", "LEFT_ALT", "SPACE", "mo:SECONDARY_LAYER", "lt:TERTIARY_LAYER", "LANG2", "lt:SYSTEM_LAYER", "LANG1", "BACKSPACE", "RET", "LEFT", "DOWN", "RIGHT"]
+      ]
+    }
+  },
+  "layers": {
+    "DEFAULT_LAYER": {
+      "name": "Default",
+      "layout": "default_layout"
+    },
+    "SECONDARY_LAYER": {
+      "name": "Numpad",
+      "layout": "default_layout"
+    },
+    "TERTIARY_LAYER": {
+      "name": "Function",
+      "layout": "default_layout"
+    },
+    "SYSTEM_LAYER": {
+      "name": "System",
+      "layout": "default_layout"
+    },
+    "MOUSE_R_LAYER": {
+      "name": "Right Mouse",
+      "layout": "default_layout"
+    },
+    "SCROLL_R_LAYER": {
+      "name": "Right Scroll",
+      "layout": "default_layout"
+    },
+    "MOUSE_L_LAYER": {
+      "name": "Left Mouse",
+      "layout": "default_layout"
+    },
+    "SCROLL_L_LAYER": {
+      "name": "Left Scroll",
+      "layout": "default_layout"
+    }
+  }
+}
