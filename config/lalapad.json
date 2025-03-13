@@ -1,36 +1,40 @@
 {
-    "layouts": {
-        "default": {
-            "keymap": [
-                ["ESC", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "EQUAL"],
-                ["TAB", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMI", "SQT"],
-                ["LSHIFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "UP", "SLASH"],
-                ["LCTRL", "LEFT_WIN", "LEFT_ALT", "SPACE", "MO(1)", "LT(2,LANG2)", "LT(3,LANG1)", "BACKSPACE", "ENTER", "LEFT", "DOWN", "RIGHT"]
-            ]
-        },
-        "secondary": {
-            "keymap": [
-                ["TILDE", "1", "2", "3", "4", "5", "PAGE_UP", "PRINTSCREEN", "KP_SLASH", "KP_7", "KP_8", "KP_9"],
-                ["", "6", "7", "8", "9", "0", "HOME", "END", "KP_ASTERISK", "KP_4", "KP_5", "KP_6"],
-                ["", "", "", "", "", "", "PAGE_DOWN", "KP_MINUS", "KP_PLUS", "KP_1", "KP_2", "KP_3"],
-                ["", "", "", "", "", "CAPS", "", "DELETE", "", "KP_0", "DOT_COMMA", "KP_ENTER"]
-            ]
-        },
-        "tertiary": {
-            "keymap": [
-                ["", "F1", "F2", "F3", "F4", "F5", "", "", "", "", "", ""],
-                ["", "F6", "F7", "F8", "F9", "F10", "", "", "", "", "", ""],
-                ["", "F11", "F12", "F13", "F14", "F15", "", "", "", "", "", ""],
-                ["", "", "", "", "", "", "", "", "", "", "", ""]
-            ]
-        },
-        "system": {
-            "keymap": [
-                ["", "", "", "", "", "", "OUT_TOG", "BT_SEL_0", "BT_SEL_1", "BT_SEL_2", "BT_SEL_3", "BT_SEL_4"],
-                ["", "", "", "", "BOOTLOADER", "SYS_RESET", "SYS_RESET", "BOOTLOADER", "STUDIO_UNLOCK", "BT_CLR", "BT_CLR_ALL", ""],
-                ["", "", "", "", "", "", "", "", "", "", "", ""],
-                ["", "", "", "", "", "", "", "", "", "", "", ""]
-            ]
-        }
+  "layouts": {
+    "default": {
+      "layout": [
+        ["ESC", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "EQUAL"],
+        ["TAB", "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMI", "SQT"],
+        ["LSHFT", "Z", "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "UP", "SLASH"],
+        ["LCTRL", "LEFT_WIN", "LEFT_ALT", "SPACE", "MO(1)", "LT(2,LANG2)", "LT(3,LANG1)", "BACKSPACE", "RET", "LEFT", "DOWN", "RIGHT"],
+        ["ALLOW_END", "ALLOW_PGDN", "ALLOW_HOME", "ALLOW_PGUP", "ALLOW_PGUP", "ALLOW_HOME", "ALLOW_PGDN", "ALLOW_END"]
+      ]
+    },
+    "secondary": {
+      "layout": [
+        ["TILDE", "1", "2", "3", "4", "5", "PGUP", "PRTSC", "KP_SLASH", "KP_7", "KP_8", "KP_9"],
+        ["", "6", "7", "8", "9", "0", "HOME", "END", "KP_ASTERISK", "KP_4", "KP_5", "KP_6"],
+        ["", "", "", "", "", "", "PGDN", "KP_MINUS", "KP_PLUS", "KP_1", "KP_2", "KP_3"],
+        ["", "", "", "", "", "CAPS", "", "DELETE", "", "KP_0", "DOT_COMMA", "KP_ENTER"],
+        ["", "", "", "", "", "", "", ""]
+      ]
+    },
+    "tertiary": {
+      "layout": [
+        ["", "F1", "F2", "F3", "F4", "F5", "", "", "", "", "", ""],
+        ["", "F6", "F7", "F8", "F9", "F10", "", "", "", "", "", ""],
+        ["", "F11", "F12", "F13", "F14", "F15", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ]
+    },
+    "system": {
+      "layout": [
+        ["", "", "", "", "", "", "OUT_TOG", "BT_SEL 0", "BT_SEL 1", "BT_SEL 2", "BT_SEL 3", "BT_SEL 4"],
+        ["", "", "", "", "BOOTLOADER", "SYS_RESET", "SYS_RESET", "BOOTLOADER", "STUDIO_UNLOCK", "BT_CLR", "BT_CLR_ALL", ""],
+        ["", "", "", "", "", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ]
     }
+  }
 }
